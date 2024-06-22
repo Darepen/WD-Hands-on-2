@@ -1,0 +1,31 @@
+/* assets/css/header.css */
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+
+.active-button {
+    background-color: #777;
+    transform: scale(1.1);
+}
