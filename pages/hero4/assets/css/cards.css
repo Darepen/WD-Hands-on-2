@@ -1,0 +1,39 @@
+/* assets/css/hero4.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card1 {
+    background-color: #ff8a80;
+}
+
+.card2 {
+    background-color: #ff80ab;
+}
+
+.card3 {
+    background-color: #ea80fc;
+}
+
+.card4 {
+    background-color: #b388ff;
+}

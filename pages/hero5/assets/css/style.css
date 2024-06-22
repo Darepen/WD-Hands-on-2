@@ -5,7 +5,6 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: black;
 }
 
 main {
@@ -13,7 +12,6 @@ main {
     justify-content: center;
     align-items: center;
     height: calc(100% - 8rem); /* Adjusting for header and footer height */
-    background-color: #000;
 }
 
 .landing-page {
@@ -23,6 +21,10 @@ main {
 
 .landing-page img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 1;
+    left: 0;
+    z-index: -1;
 }
