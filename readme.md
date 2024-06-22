@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Darepen/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/vid/huh.gif" alt="HUH" width="200" height="250">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hands on 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is what I did for Hands on 2 in Web Design Lecture.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Darepen/WD-Hands-on-2)
 
 ---
 
@@ -117,4 +117,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| How to autoplay audio in html | Learned how to autoplay audio in my pages. | https://www.youtube.com/watch?v=_ebfmG-334M |
+| Play file at certain time point | Learned how to play files at specific time stamps. | https://stackoverflow.com/questions/12029509/html-5-audio-play-file-at-certain-time-point |
+| How to adjust volume using JavaScript | Learned how to preset the audio of my file using JS. | https://stackoverflow.com/questions/33747398/html-audio-tag-volume
