@@ -7,7 +7,6 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem;
-    background-color: whitesmoke;
 }
 
 /* General styles for card containers */
@@ -21,7 +20,6 @@
 
 /* General styles for the cards */
 .card {
-    width: 200px;
     padding: 1rem;
     margin: 1rem;
     border-radius: 8px;
@@ -124,22 +122,27 @@
 }
 
 /* Applying animations to specific cards with different interactions */
-.animated.hero1-card1:active {
-    animation: fadeIn 1s ease-in-out;
+.animated.hero1-card1:hover {
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
 
-.animated.hero2-card1:active {
-    animation: slideInLeft 1s ease-in-out;
+.animated.hero2-card1:hover {
+    animation: slideInLeft 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
 
-.animated.hero3-card1:active {
-    animation: slideInRight 1s ease-in-out;
+.animated.hero3-card1:hover {
+    animation: slideInRight 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
 
-.animated.hero4-card1:active {
-    animation: zoomIn 1s ease-in-out;
+.animated.hero4-card1:hover {
+    animation: zoomIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
 
-.animated.hero5-card1:active {
-    animation: bounceIn 1s ease-in-out;
+.animated.hero5-card1:hover {
+    animation: bounceIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
