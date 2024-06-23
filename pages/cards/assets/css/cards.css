@@ -1,0 +1,145 @@
+/* assets/css/cards.css */
+
+/* General styles for the landing page */
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+/* General styles for card containers */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* General styles for the cards */
+.card {
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Specific styles for each card */
+.hero1-card1 {
+    background-color: #ffcccc;
+    border-radius: 8px;
+    text-align: left;
+    color: black;
+}
+
+.hero2-card1 {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+
+.hero3-card1 {
+    background-color: #03a9f4;
+    text-align: right;
+    color: white;
+}
+
+.hero4-card1 {
+    background-color: #ff80ab;
+    text-align: center;
+    color: black;
+}
+
+.hero5-card1 {
+    background-color: #ff5252;
+    text-align: justify;
+    color: white;
+}
+
+.hero5-card1 h3 {
+    color: rgb(0, 63, 179);
+    text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* Applying animations to specific cards with different interactions */
+.animated.hero1-card1:active {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.animated.hero2-card1:active {
+    animation: slideInLeft 1s ease-in-out;
+}
+
+.animated.hero3-card1:active {
+    animation: slideInRight 1s ease-in-out;
+}
+
+.animated.hero4-card1:active {
+    animation: zoomIn 1s ease-in-out;
+}
+
+.animated.hero5-card1:active {
+    animation: bounceIn 1s ease-in-out;
+}
