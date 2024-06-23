@@ -37,11 +37,15 @@
 }
 
 .hero2-card1 {
-    padding: 1rem;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: justify;
+
+    color: black;
+    display: flex; /* Use flexbox to control layout */
+    align-items: center; /* Align items vertically */
+    padding: 1rem; /* Adjust padding as needed */
+}
+
+.hero2-card1 .icon {
+    margin-left: auto; /* Move icon to the right */
 }
 
 .hero3-card1 {
@@ -146,3 +150,127 @@
     animation: bounceIn 1s ease-in-out forwards;
     animation-delay: 0.5s;
 }
+
+/* General styles for buttons */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+/* General styles for icons */
+.icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+/* Specific styles for each card */
+.hero1-card1 .btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.hero1-card1 .icon {
+    fill: #3498db;
+}
+
+.hero1-card1 {
+    transform: scale(1.2);
+}
+
+.hero2-card1 .btn {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.hero2-card1 .icon {
+    fill: #e67e22;
+}
+
+.hero2-card1 {
+    transform: scale(1.2);
+}
+
+.hero3-card1 .btn {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.hero3-card1 .icon {
+    fill: #27ae60;
+}
+
+.hero3-card1 {
+    transform: scale(1.2);
+}
+
+.hero4-card1 .btn {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.hero4-card1 .icon {
+    fill: #9b59b6;
+}
+
+.hero4-card1 {
+    transform: scale(1.2);
+}
+
+.hero5-card1 .btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.hero5-card1 .icon {
+    fill: #e74c3c;
+}
+
+.hero5-card1 {
+    transform: scale(1.2);
+}
+
+/* Animations for animated cards only */
+.animated .btn {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.animated .btn:hover {
+    transform: scale(1.05);
+}
+
+.animated .icon {
+    transition: transform 0.3s ease;
+}
+
+.animated .icon:hover {
+    transform: scale(1.2);
+}
+
+/* Specific animations for each card */
+.animated.hero2-card1 .btn {
+    animation: slideInLeft 1s ease-in-out forwards;
+}
+
+.animated.hero3-card1 .btn {
+    animation: slideInRight 1s ease-in-out forwards;
+}
+
+.animated.hero4-card1 .btn {
+    animation: zoomIn 1s ease-in-out forwards;
+}
+
+.animated.hero5-card1 .btn {
+    animation: bounceIn 1s ease-in-out forwards;
+}
+
