@@ -5,19 +5,36 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: black;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+}
+
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 main {
-    height: calc(100% - 8rem);
-    background-color: #000;
+    min-height: calc(100% - 8rem);
+    background-color: transparent;
+    position: relative;
 }
 
 .landing-page {
-    .demi {
-        width: 250px;
-        height: auto;
-        display: flex;
-        align-items: center;
-    }
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page .demi {
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px #222);
 }
