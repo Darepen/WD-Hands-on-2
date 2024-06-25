@@ -121,3 +121,4 @@ WD-ProjectName
 | Play file at certain time point | Learned how to play files at specific time stamps. | https://stackoverflow.com/questions/12029509/html-5-audio-play-file-at-certain-time-point |
 | How to adjust volume using JavaScript | Learned how to preset the audio of my file using JS. | https://stackoverflow.com/questions/33747398/html-audio-tag-volume
 | Dropshadow in CSS | Learned how to add dropshadow in image. | https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css
+| Animations in CSS | Learned more about animations using only CSS. Mainly applied in the cards page. | https://www.w3schools.com/css/css3_animations.asp
